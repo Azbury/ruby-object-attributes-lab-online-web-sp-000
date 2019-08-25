@@ -1,0 +1,17 @@
+class Dog
+  def name= (dog_name)
+    @dog_name = dog_name
+  end
+
+  def name
+    @dog_name
+  end
+
+  def breed= (breed_name)
+    @breed_name = breed_name
+  end
+
+  def breed
+    @breed_name
+  end
+end
